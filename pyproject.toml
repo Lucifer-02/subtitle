@@ -1,0 +1,15 @@
+[project]
+name = "subtitle"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "click>=8.1.8",
+    "google-generativeai>=0.8.5",
+    "gtts>=2.5.4",
+    "ipython>=9.1.0",
+    "pydub>=0.25.1",
+    "srt>=3.5.3",
+    "yt-dlp>=2025.6.9",
+]
