@@ -1,9 +1,10 @@
 SRT_FILE = "../video_trans/dataset/sub.srt"
 
-run: apply
+run: 
 	clear
-	uv run main.py
-	apply
+	# uv run main.py
+	# apply
+	uv run test.py
 
 run:
 	uv run test.py
